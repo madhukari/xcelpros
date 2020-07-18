@@ -1,0 +1,95 @@
+$primary_3: papayawhip;
+$topHeight: 550px;
+
+#fakebox > input {
+bottom: 0;
+    box-sizing: border-box;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding-inline-start: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.alignleft {
+  float: left;
+  margin-left: 19px;  
+}
+.tableStyle {
+  width: 839px;
+}
+.divInsideNav{
+margin-top: 127px;
+float: left;
+margin-left: -144px;
+}
+.App {
+  text-align: center;
+  display: flex;
+}
+
+
+
+.App-sideNav {
+  background-color: black;
+  height: $topHeight;
+  width: 50px;
+  
+
+}
+.App-sideNav2 {
+   width: 250px;
+   border-color: $primary_3;  
+   border-width: 0.01rem;
+   border-style: solid;
+}
+
+.App-Topnav {
+  height: 50px;
+  width: 1000px;
+
+}
+ 
+ 
+.App-divTop {
+  width: 130%;
+  
+  height: 100px;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
